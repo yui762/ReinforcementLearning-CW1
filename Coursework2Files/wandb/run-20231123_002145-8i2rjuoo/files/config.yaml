@@ -1,0 +1,53 @@
+wandb_version: 1
+
+BATCH_SIZE:
+  desc: null
+  value: 32
+BUFFER_SIZE:
+  desc: null
+  value: 10000
+EPSILON:
+  desc: null
+  value: 0.3240860181969851
+LEARNING_RATE:
+  desc: null
+  value: 0.7738391689197606
+NUMBER_HIDDEN_LAYERS:
+  desc: null
+  value: 3
+SIZE_HIDDEN_LAYER:
+  desc: null
+  value: 256
+UPDATE_PERIOD:
+  desc: null
+  value: 10
+optimizer:
+  desc: null
+  value: adam
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.6
+    cli_version: 0.16.0
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1700698905.172717
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.11.6
+      5: 0.16.0
+      8:
+      - 1
+      - 3
+      - 5
+      13: windows-amd64

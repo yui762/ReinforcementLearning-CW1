@@ -1,0 +1,18 @@
+wandb_version: 1
+
+BATCH_SIZE:
+  value: 256
+BUFFER_SIZE:
+  value: 1000
+EPSILON:
+  value: 0.21937755089463196
+LEARNING_RATE:
+  value: 0.06361198370689737
+NUMBER_INNER_LAYERS:
+  value: 1
+SIZE_INNER_LAYER:
+  value: 50
+UPDATE_PERIOD:
+  value: 10
+optimizer:
+  value: adam

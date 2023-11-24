@@ -1,0 +1,7 @@
+
+Starting run 1 of 5
+Traceback (most recent call last):
+  File "C:\Users\yhara\AppData\Local\Temp\ipykernel_6472\707698188.py", line 75, in train
+    mse_loss = loss(policy_net, target_net, state_batch, action_batch, reward_batch, nextstate_batch, dones)
+    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'optimizer' where it is not associated with a value

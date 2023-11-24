@@ -1,0 +1,48 @@
+2023-11-17 18:01:40,244 INFO    StreamThr :14404 [internal.py:wandb_internal():86] W&B internal server running at pid: 14404, started at: 2023-11-17 18:01:40.243063
+2023-11-17 18:01:40,245 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: status
+2023-11-17 18:01:40,267 INFO    WriterThread:14404 [datastore.py:open_for_write():85] open: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_180140-e8yw1cn3\run-e8yw1cn3.wandb
+2023-11-17 18:01:40,268 DEBUG   SenderThread:14404 [sender.py:send():380] send: header
+2023-11-17 18:01:40,270 DEBUG   SenderThread:14404 [sender.py:send():380] send: run
+2023-11-17 18:01:40,860 INFO    SenderThread:14404 [dir_watcher.py:__init__():211] watching files in: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_180140-e8yw1cn3\files
+2023-11-17 18:01:40,861 INFO    SenderThread:14404 [sender.py:_start_run_threads():1124] run started: e8yw1cn3 with start time 1700244100.243063
+2023-11-17 18:01:40,876 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: check_version
+2023-11-17 18:01:40,876 DEBUG   SenderThread:14404 [sender.py:send_request():407] send_request: check_version
+2023-11-17 18:01:41,321 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: run_start
+2023-11-17 18:01:41,344 DEBUG   HandlerThread:14404 [system_info.py:__init__():32] System info init
+2023-11-17 18:01:41,344 DEBUG   HandlerThread:14404 [system_info.py:__init__():47] System info init done
+2023-11-17 18:01:41,344 INFO    HandlerThread:14404 [system_monitor.py:start():194] Starting system monitor
+2023-11-17 18:01:41,345 INFO    SystemMonitor:14404 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-17 18:01:41,345 INFO    HandlerThread:14404 [system_monitor.py:probe():214] Collecting system info
+2023-11-17 18:01:41,354 INFO    SystemMonitor:14404 [interfaces.py:start():190] Started cpu monitoring
+2023-11-17 18:01:41,364 DEBUG   HandlerThread:14404 [system_info.py:probe():196] Probing system
+2023-11-17 18:01:41,364 INFO    SystemMonitor:14404 [interfaces.py:start():190] Started disk monitoring
+2023-11-17 18:01:41,381 INFO    SystemMonitor:14404 [interfaces.py:start():190] Started memory monitoring
+2023-11-17 18:01:41,393 INFO    SystemMonitor:14404 [interfaces.py:start():190] Started network monitoring
+2023-11-17 18:01:41,408 DEBUG   HandlerThread:14404 [gitlib.py:_init_repo():56] git repository is invalid
+2023-11-17 18:01:41,408 DEBUG   HandlerThread:14404 [system_info.py:probe():244] Probing system done
+2023-11-17 18:01:41,408 DEBUG   HandlerThread:14404 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.6', 'heartbeatAt': '2023-11-17T18:01:41.364006', 'startedAt': '2023-11-17T18:01:40.217837', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Yui', 'username': 'yhara', 'executable': 'C:\\Users\\yhara\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1801.0, 'min': 0.0, 'max': 1801.0}, 'cpu_freq_per_core': [{'current': 1801.0, 'min': 0.0, 'max': 1801.0}], 'disk': {'/': {'total': 474.71581649780273, 'used': 273.4863471984863}}, 'memory': {'total': 15.338436126708984}}
+2023-11-17 18:01:41,408 INFO    HandlerThread:14404 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-17 18:01:41,408 INFO    HandlerThread:14404 [system_monitor.py:probe():227] Publishing system info
+2023-11-17 18:01:41,408 DEBUG   HandlerThread:14404 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-17 18:01:41,409 DEBUG   HandlerThread:14404 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-17 18:01:41,410 INFO    HandlerThread:14404 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-17 18:01:41,415 DEBUG   SenderThread:14404 [sender.py:send():380] send: files
+2023-11-17 18:01:41,416 INFO    SenderThread:14404 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-17 18:01:41,439 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 18:01:41,439 DEBUG   SenderThread:14404 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 18:01:41,441 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 18:01:41,877 INFO    Thread-16 :14404 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_180140-e8yw1cn3\files\requirements.txt
+2023-11-17 18:01:41,878 INFO    Thread-16 :14404 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_180140-e8yw1cn3\files\wandb-metadata.json
+2023-11-17 18:01:42,027 DEBUG   SenderThread:14404 [sender.py:send():380] send: telemetry
+2023-11-17 18:01:42,368 INFO    wandb-upload_0:14404 [upload_job.py:push():131] Uploaded file C:\Users\yhara\AppData\Local\Temp\tmpoqdaoamnwandb\0zy1eivy-wandb-metadata.json
+2023-11-17 18:01:42,889 INFO    Thread-16 :14404 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_180140-e8yw1cn3\files\output.log
+2023-11-17 18:01:44,910 INFO    Thread-16 :14404 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_180140-e8yw1cn3\files\output.log
+2023-11-17 18:01:45,299 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 18:01:51,113 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 18:01:53,002 INFO    Thread-16 :14404 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_180140-e8yw1cn3\files\output.log
+2023-11-17 18:01:56,160 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 18:01:56,442 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 18:01:56,442 DEBUG   SenderThread:14404 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 18:01:56,456 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 18:02:01,672 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 18:02:06,693 DEBUG   HandlerThread:14404 [handler.py:handle_request():146] handle_request: status_report

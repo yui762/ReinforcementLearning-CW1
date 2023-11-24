@@ -1,0 +1,38 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.6",
+    "heartbeatAt": "2023-11-17T23:56:22.206827",
+    "startedAt": "2023-11-17T23:56:21.069606",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Yui",
+    "username": "yhara",
+    "executable": "C:\\Users\\yhara\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1801.0,
+        "min": 0.0,
+        "max": 1801.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1801.0,
+            "min": 0.0,
+            "max": 1801.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 474.71581649780273,
+            "used": 264.6625747680664
+        }
+    },
+    "memory": {
+        "total": 15.338436126708984
+    }
+}

@@ -1,0 +1,406 @@
+2023-11-17 22:12:20,271 INFO    StreamThr :17916 [internal.py:wandb_internal():86] W&B internal server running at pid: 17916, started at: 2023-11-17 22:12:20.269947
+2023-11-17 22:12:20,273 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status
+2023-11-17 22:12:20,294 INFO    WriterThread:17916 [datastore.py:open_for_write():85] open: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\run-t1ofzn22.wandb
+2023-11-17 22:12:20,295 DEBUG   SenderThread:17916 [sender.py:send():380] send: header
+2023-11-17 22:12:20,298 DEBUG   SenderThread:17916 [sender.py:send():380] send: run
+2023-11-17 22:12:20,899 INFO    SenderThread:17916 [dir_watcher.py:__init__():211] watching files in: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files
+2023-11-17 22:12:20,899 INFO    SenderThread:17916 [sender.py:_start_run_threads():1124] run started: t1ofzn22 with start time 1700259140.269027
+2023-11-17 22:12:20,917 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: check_version
+2023-11-17 22:12:20,917 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: check_version
+2023-11-17 22:12:21,549 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: run_start
+2023-11-17 22:12:21,574 DEBUG   HandlerThread:17916 [system_info.py:__init__():32] System info init
+2023-11-17 22:12:21,574 DEBUG   HandlerThread:17916 [system_info.py:__init__():47] System info init done
+2023-11-17 22:12:21,574 INFO    HandlerThread:17916 [system_monitor.py:start():194] Starting system monitor
+2023-11-17 22:12:21,574 INFO    SystemMonitor:17916 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-17 22:12:21,575 INFO    HandlerThread:17916 [system_monitor.py:probe():214] Collecting system info
+2023-11-17 22:12:21,584 INFO    SystemMonitor:17916 [interfaces.py:start():190] Started cpu monitoring
+2023-11-17 22:12:21,584 INFO    SystemMonitor:17916 [interfaces.py:start():190] Started disk monitoring
+2023-11-17 22:12:21,592 DEBUG   HandlerThread:17916 [system_info.py:probe():196] Probing system
+2023-11-17 22:12:21,608 INFO    SystemMonitor:17916 [interfaces.py:start():190] Started memory monitoring
+2023-11-17 22:12:21,620 INFO    SystemMonitor:17916 [interfaces.py:start():190] Started network monitoring
+2023-11-17 22:12:21,636 DEBUG   HandlerThread:17916 [gitlib.py:_init_repo():56] git repository is invalid
+2023-11-17 22:12:21,636 DEBUG   HandlerThread:17916 [system_info.py:probe():244] Probing system done
+2023-11-17 22:12:21,636 DEBUG   HandlerThread:17916 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.6', 'heartbeatAt': '2023-11-17T22:12:21.599874', 'startedAt': '2023-11-17T22:12:20.243090', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Yui', 'username': 'yhara', 'executable': 'C:\\Users\\yhara\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1801.0, 'min': 0.0, 'max': 1801.0}, 'cpu_freq_per_core': [{'current': 1801.0, 'min': 0.0, 'max': 1801.0}], 'disk': {'/': {'total': 474.71581649780273, 'used': 273.1526985168457}}, 'memory': {'total': 15.338436126708984}}
+2023-11-17 22:12:21,636 INFO    HandlerThread:17916 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-17 22:12:21,636 INFO    HandlerThread:17916 [system_monitor.py:probe():227] Publishing system info
+2023-11-17 22:12:21,636 DEBUG   HandlerThread:17916 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-17 22:12:21,636 DEBUG   HandlerThread:17916 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-17 22:12:21,637 INFO    HandlerThread:17916 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-17 22:12:21,644 DEBUG   SenderThread:17916 [sender.py:send():380] send: files
+2023-11-17 22:12:21,644 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-17 22:12:21,666 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:12:21,667 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:12:21,668 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:12:21,913 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\requirements.txt
+2023-11-17 22:12:21,913 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-metadata.json
+2023-11-17 22:12:22,281 DEBUG   SenderThread:17916 [sender.py:send():380] send: telemetry
+2023-11-17 22:12:22,617 INFO    wandb-upload_0:17916 [upload_job.py:push():131] Uploaded file C:\Users\yhara\AppData\Local\Temp\tmpthaw09biwandb\jkqeiase-wandb-metadata.json
+2023-11-17 22:12:22,916 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:12:24,930 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:12:25,804 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:12:30,842 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:12:35,880 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:12:36,660 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:12:36,661 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:12:36,675 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:12:40,951 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:12:45,114 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:12:46,875 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:12:51,658 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:12:51,659 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:12:51,689 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:12:52,837 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:12:53,196 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\config.yaml
+2023-11-17 22:12:58,037 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:03,094 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:06,671 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:13:06,671 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:13:06,702 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:13:08,406 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:13:08,562 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:13,599 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:18,623 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:21,643 DEBUG   SystemMonitor:17916 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-17 22:13:21,644 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:13:21,690 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:13:21,690 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:13:21,706 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:13:23,939 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:28,985 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:34,068 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:34,896 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:13:36,693 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:13:36,694 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:13:36,708 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:13:39,935 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:44,999 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:50,004 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:13:51,659 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:13:51,707 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:13:51,707 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:13:51,723 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:13:53,178 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:13:55,905 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:00,955 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:03,991 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-17 22:14:03,993 DEBUG   SenderThread:17916 [sender.py:send():380] send: history
+2023-11-17 22:14:03,993 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: summary_record
+2023-11-17 22:14:03,994 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-17 22:14:04,331 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:14:04,332 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-summary.json
+2023-11-17 22:14:06,364 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:14:06,704 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:06,704 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:14:06,705 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:14:06,736 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:14:11,983 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:16,525 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:14:17,444 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:21,664 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:14:21,711 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:14:21,711 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:14:21,742 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:14:23,392 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:28,417 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:33,451 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:36,725 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:14:36,726 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:14:36,747 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:14:38,895 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:42,933 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:14:44,712 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:49,744 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:51,670 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:14:51,732 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:14:51,733 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:14:51,763 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:14:54,982 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:14:59,196 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:15:00,418 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:05,473 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:06,752 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:15:06,753 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:15:06,769 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:15:08,356 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:15:11,254 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:16,311 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:21,431 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-17 22:15:21,432 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:21,432 DEBUG   SenderThread:17916 [sender.py:send():380] send: history
+2023-11-17 22:15:21,433 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: summary_record
+2023-11-17 22:15:21,434 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-17 22:15:21,573 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-summary.json
+2023-11-17 22:15:21,681 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:15:21,759 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:15:21,760 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:15:21,774 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:15:22,596 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:15:24,634 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:15:26,964 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:31,997 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:36,765 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:15:36,766 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:15:36,781 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:15:36,839 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:15:37,984 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:43,019 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:48,078 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:51,689 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:15:51,766 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:15:51,767 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:15:51,782 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:15:53,992 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:15:57,160 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:15:59,031 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:04,054 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:06,769 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:16:06,770 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:16:06,785 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:16:09,369 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:16:09,466 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:14,508 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:19,548 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:21,693 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:16:21,772 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:16:21,772 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:16:21,788 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:16:24,613 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:16:24,845 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:29,880 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:34,468 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-17 22:16:34,469 DEBUG   SenderThread:17916 [sender.py:send():380] send: history
+2023-11-17 22:16:34,469 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: summary_record
+2023-11-17 22:16:34,470 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-17 22:16:34,764 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-summary.json
+2023-11-17 22:16:34,764 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:16:35,482 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:36,773 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:16:36,773 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:16:36,789 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:16:36,791 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:16:41,408 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:42,879 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:16:46,447 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:51,492 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:16:51,699 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:16:51,762 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:16:51,763 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:16:51,793 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:16:56,994 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:02,034 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:06,775 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:17:06,776 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:17:06,806 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:17:07,999 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:11,344 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:17:13,954 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:18,995 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:21,710 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:17:21,773 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:17:21,773 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:17:21,805 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:17:23,997 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:29,024 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:34,046 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:36,776 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:17:36,780 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:17:36,781 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:17:36,811 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:17:40,047 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:45,099 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:50,144 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:17:51,717 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:17:51,794 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:17:51,795 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:17:51,826 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:17:56,098 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:01,189 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:18:01,363 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:06,403 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:06,809 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:18:06,809 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:18:06,840 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:18:11,446 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:13,368 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:18:16,488 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:19,767 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-17 22:18:19,768 DEBUG   SenderThread:17916 [sender.py:send():380] send: history
+2023-11-17 22:18:19,768 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: summary_record
+2023-11-17 22:18:19,769 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-17 22:18:20,480 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-summary.json
+2023-11-17 22:18:20,480 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:18:21,672 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:21,727 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:18:21,821 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:18:21,821 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:18:21,853 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:18:22,508 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:18:27,030 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:32,061 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:34,698 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:18:36,821 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:18:36,821 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:18:36,868 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:18:38,025 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:43,058 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:48,102 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:51,734 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:18:51,827 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:18:51,827 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:18:51,859 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:18:53,012 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:18:54,075 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:18:59,121 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:04,176 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:06,844 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:19:06,845 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:19:06,877 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:19:09,266 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:09,267 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:19:14,348 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:19,388 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:21,745 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:19:21,853 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-17 22:19:21,853 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: stop_status
+2023-11-17 22:19:21,885 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:19:25,019 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:26,543 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:19:30,723 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:35,739 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:36,397 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-17 22:19:36,407 DEBUG   SenderThread:17916 [sender.py:send():380] send: history
+2023-11-17 22:19:36,407 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: summary_record
+2023-11-17 22:19:36,408 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-17 22:19:36,408 DEBUG   SenderThread:17916 [sender.py:send():380] send: telemetry
+2023-11-17 22:19:36,409 DEBUG   SenderThread:17916 [sender.py:send():380] send: exit
+2023-11-17 22:19:36,409 INFO    SenderThread:17916 [sender.py:send_exit():585] handling exit code: 0
+2023-11-17 22:19:36,409 INFO    SenderThread:17916 [sender.py:send_exit():587] handling runtime: 434
+2023-11-17 22:19:36,409 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-17 22:19:36,410 INFO    SenderThread:17916 [sender.py:send_exit():593] send defer
+2023-11-17 22:19:36,410 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,410 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-17 22:19:36,410 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,410 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-17 22:19:36,410 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 1
+2023-11-17 22:19:36,411 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,411 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-17 22:19:36,411 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,411 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-17 22:19:36,411 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 2
+2023-11-17 22:19:36,411 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,411 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-17 22:19:36,411 INFO    HandlerThread:17916 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-17 22:19:36,412 DEBUG   SystemMonitor:17916 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-17 22:19:36,412 INFO    HandlerThread:17916 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-17 22:19:36,412 DEBUG   SystemMonitor:17916 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-17 22:19:36,412 INFO    HandlerThread:17916 [interfaces.py:finish():202] Joined disk monitor
+2023-11-17 22:19:36,413 INFO    HandlerThread:17916 [interfaces.py:finish():202] Joined memory monitor
+2023-11-17 22:19:36,413 INFO    HandlerThread:17916 [interfaces.py:finish():202] Joined network monitor
+2023-11-17 22:19:36,413 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,413 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-17 22:19:36,413 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 3
+2023-11-17 22:19:36,413 DEBUG   SenderThread:17916 [sender.py:send():380] send: stats
+2023-11-17 22:19:36,414 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,414 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-17 22:19:36,414 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,414 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-17 22:19:36,414 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 4
+2023-11-17 22:19:36,414 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,414 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-17 22:19:36,414 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,414 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-17 22:19:36,414 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 5
+2023-11-17 22:19:36,415 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,415 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-17 22:19:36,415 DEBUG   SenderThread:17916 [sender.py:send():380] send: summary
+2023-11-17 22:19:36,416 INFO    SenderThread:17916 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-17 22:19:36,416 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,416 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-17 22:19:36,416 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 6
+2023-11-17 22:19:36,416 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,416 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-17 22:19:36,416 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,416 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-17 22:19:36,420 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: status_report
+2023-11-17 22:19:36,612 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 7
+2023-11-17 22:19:36,612 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:36,612 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-17 22:19:36,613 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:36,613 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-17 22:19:36,705 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\config.yaml
+2023-11-17 22:19:36,706 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-summary.json
+2023-11-17 22:19:36,706 INFO    Thread-16 :17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:19:37,401 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-17 22:19:38,480 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 8
+2023-11-17 22:19:38,480 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: poll_exit
+2023-11-17 22:19:38,480 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:38,480 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-17 22:19:38,480 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:38,481 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-17 22:19:38,481 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 9
+2023-11-17 22:19:38,481 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:38,481 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-17 22:19:38,481 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:38,481 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-17 22:19:38,481 INFO    SenderThread:17916 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-17 22:19:38,724 INFO    SenderThread:17916 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:19:38,724 INFO    SenderThread:17916 [dir_watcher.py:finish():388] scan: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files
+2023-11-17 22:19:38,725 INFO    SenderThread:17916 [dir_watcher.py:finish():402] scan save: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\config.yaml config.yaml
+2023-11-17 22:19:38,725 INFO    SenderThread:17916 [dir_watcher.py:finish():402] scan save: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log output.log
+2023-11-17 22:19:38,727 INFO    SenderThread:17916 [dir_watcher.py:finish():402] scan save: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\requirements.txt requirements.txt
+2023-11-17 22:19:38,730 INFO    SenderThread:17916 [dir_watcher.py:finish():402] scan save: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-metadata.json wandb-metadata.json
+2023-11-17 22:19:38,730 INFO    SenderThread:17916 [dir_watcher.py:finish():402] scan save: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-summary.json wandb-summary.json
+2023-11-17 22:19:38,733 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 10
+2023-11-17 22:19:38,733 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:38,733 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-17 22:19:38,734 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:38,735 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-17 22:19:38,768 INFO    SenderThread:17916 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-17 22:19:39,428 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-17 22:19:39,429 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: poll_exit
+2023-11-17 22:19:39,590 INFO    wandb-upload_0:17916 [upload_job.py:push():131] Uploaded file c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\config.yaml
+2023-11-17 22:19:39,639 INFO    wandb-upload_1:17916 [upload_job.py:push():131] Uploaded file c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\output.log
+2023-11-17 22:19:39,990 INFO    wandb-upload_2:17916 [upload_job.py:push():131] Uploaded file c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\requirements.txt
+2023-11-17 22:19:40,006 INFO    wandb-upload_3:17916 [upload_job.py:push():131] Uploaded file c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\files\wandb-summary.json
+2023-11-17 22:19:40,210 INFO    Thread-15 (_thread_body):17916 [sender.py:transition_state():613] send defer: 11
+2023-11-17 22:19:40,210 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:40,211 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-17 22:19:40,211 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:40,211 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-17 22:19:40,211 INFO    SenderThread:17916 [file_pusher.py:join():181] waiting for file pusher
+2023-11-17 22:19:40,211 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 12
+2023-11-17 22:19:40,211 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:40,211 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-17 22:19:40,211 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:40,211 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-17 22:19:40,212 INFO    SenderThread:17916 [file_stream.py:finish():595] file stream finish called
+2023-11-17 22:19:40,444 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-17 22:19:40,671 INFO    SenderThread:17916 [file_stream.py:finish():599] file stream finish is done
+2023-11-17 22:19:40,671 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 13
+2023-11-17 22:19:40,671 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: poll_exit
+2023-11-17 22:19:40,672 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:40,672 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-17 22:19:40,672 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:40,673 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-17 22:19:40,673 INFO    SenderThread:17916 [sender.py:transition_state():613] send defer: 14
+2023-11-17 22:19:40,673 DEBUG   SenderThread:17916 [sender.py:send():380] send: final
+2023-11-17 22:19:40,673 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: defer
+2023-11-17 22:19:40,673 DEBUG   SenderThread:17916 [sender.py:send():380] send: footer
+2023-11-17 22:19:40,674 INFO    HandlerThread:17916 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-17 22:19:40,674 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: defer
+2023-11-17 22:19:40,674 INFO    SenderThread:17916 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-17 22:19:40,675 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-17 22:19:40,676 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: poll_exit
+2023-11-17 22:19:40,678 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-17 22:19:40,678 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: server_info
+2023-11-17 22:19:40,678 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-17 22:19:40,678 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-17 22:19:40,679 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: job_info
+2023-11-17 22:19:40,679 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: server_info
+2023-11-17 22:19:40,798 DEBUG   SenderThread:17916 [sender.py:send_request():407] send_request: job_info
+2023-11-17 22:19:40,799 DEBUG   HandlerThread:17916 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-17 22:19:40,800 INFO    HandlerThread:17916 [handler.py:finish():866] shutting down handler
+2023-11-17 22:19:41,683 INFO    WriterThread:17916 [datastore.py:close():294] close: c:\Users\yhara\Documents\REINFORCEMENTLEARNING\rl2\cw2\Coursework 2 Files\wandb\run-20231117_221220-t1ofzn22\run-t1ofzn22.wandb
+2023-11-17 22:19:41,807 INFO    SenderThread:17916 [sender.py:finish():1536] shutting down sender
+2023-11-17 22:19:41,807 INFO    SenderThread:17916 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-17 22:19:41,807 INFO    SenderThread:17916 [file_pusher.py:join():181] waiting for file pusher

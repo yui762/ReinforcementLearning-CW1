@@ -1,0 +1,7 @@
+
+Starting run 1 of 1
+Traceback (most recent call last):
+  File "C:\Users\yhara\AppData\Local\Temp\ipykernel_19132\3515957900.py", line 41, in train
+    for i_episode in range(num_episodes): # can adjust num_episodes
+                          ^^^^^^^^^^^^
+NameError: name 'num_episodes' is not defined

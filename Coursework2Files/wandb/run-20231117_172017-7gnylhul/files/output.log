@@ -1,0 +1,10 @@
+
+Starting run 1 of 1
+Traceback (most recent call last):
+  File "C:\Users\yhara\AppData\Local\Temp\ipykernel_19132\2935801486.py", line 34, in train
+    optimizer = build_optimizer(policy_net, config.optimizer, lr)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yhara\AppData\Local\Temp\ipykernel_19132\2935801486.py", line 96, in build_optimizer
+    lr, momentum=0.9)
+    ^^
+NameError: name 'lr' is not defined
